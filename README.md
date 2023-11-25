@@ -2,7 +2,7 @@
 
 # Token Clash Game
 
-# This is the deployed link for the project : 
+This is the deployed link for the project : 
 
 # PROJECT DESCRIPTION (How to play)
 
@@ -22,7 +22,12 @@ Tokens can knock out other tokens by landing on the same space, sending the knoc
 
 I have taken reference from one you tube channel JavaScript with Sohail, which helped me make my project successful.
 
-Project Oputput Image 
+# Project Oputput Image 
 
 ![game ca dev](https://github.com/IshaRode/CA-2/assets/143946518/cb21fa3f-1167-4e46-b36e-b0d78602b9d8)
+
+# Project Output Image ( Responsive )
+
+![Responsive Design](https://github.com/IshaRode/CA-2/assets/143946518/5dc25305-68fd-4c36-a916-aae4dd3f093b)
+
 
