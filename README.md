@@ -21,6 +21,7 @@ Tokens can knock out other tokens by landing on the same space, sending the knoc
 --------------------------------------------------------------------------------------------
 
 I have taken reference from one you tube channel JavaScript with Sohail, which helped me make my project successful.
+I have taken Logo images and icons from https://www.flaticon.com/
 
 # Project Oputput Image 
 
