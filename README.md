@@ -2,7 +2,7 @@
 
 # Token Clash Game
 
-This is the deployed link for the project : 
+# This is the deployed link for the project : https://isharode.github.io/CA-2/
 
 # PROJECT DESCRIPTION (How to play)
 
