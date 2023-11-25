@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=IBM+Plex+Sans:ital,wght@1,600&family=Poppins&family=Varela+Round&display=swap');
+
+body {
+    background-image: url("LUDDOOOOO.PNG");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: 'Varela Round';
+
+}
+
+.winner-img {
+    height: 330px;
+    padding-top: 120px;
+    padding-left: 160px;
+}
+
+.again {
+    color: white;
+    font-family: 'Varela Round';
+    padding-left: 240px;
+}
+
+.replay {
+    height: 100px;
+    padding-left: 260px;
+}
+
+.name-of-player {
+padding-right: 250px;
+color: antiquewhite;
+text-align: center;
+padding-top: 150px;
+}
+
+.player-name {
+    font-size: 60px;
+}
+
+.won {
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .winner{
+        width: 45%;
+        padding: 20px;
+
+    } .name-of-player {
+        width: 45%;
+        padding: 90px;
+    }
+
+    .winner-img {
+        width: auto;
+        max-width: none;
+    }
+}

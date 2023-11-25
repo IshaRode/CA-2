@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=IBM+Plex+Sans:ital,wght@1,600&family=Poppins&family=Varela+Round&display=swap');
+
+body {
+    background-image: url("LUDDOOOOO.PNG");
+    background-size: cover;
+    font-family: 'Varela Round';
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin: 1%;
+}
+
+.homie {
+    height: 70px;
+}
+
+.all-instructions {
+    background-color: rgba(127, 204, 255, 0.585);
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px;
+    font-size: 25px;
+    border: 7px solid rgb(196, 79, 211);
+    border-radius: 30px;
+    margin-bottom: 19px;
+    margin-trim: 50%;
+
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-top: 0px;
+}
+
+.startss {
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+    .start {
+        height: 70px;
+    }
+}
+

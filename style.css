@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=IBM+Plex+Sans:ital,wght@1,600&family=Poppins&family=Varela+Round&display=swap');
+
+body {
+    background-image:url("LUDDOOOOO.PNG");
+    background-size: cover;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+}
+
+.inst {
+  height: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    
+    font-family: 'Varela Round';
+    padding-top: 0px;
+
+}
+
+.logo {
+   
+    width: 200px; 
+    height: auto;
+}
+
+.logos {
+    height: 260px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.name {
+    color: white;
+    padding-right: 300px;
+    padding-left: 45px;
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 0%;
+}
+
+.start-button {
+    width: 250px;
+    display: flex;
+    padding-left: 160px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+   padding-right: 320px;
+    
+}
+  
+  form {
+    
+    border-radius: 8px;
+    
+    padding: 40px;
+    margin: 20px;
+  
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: aliceblue;
+    font-family: 'Varela Round';    
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 55px;
+    background-color: #90f190;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .startit {
+    padding-left: 100px;
+  }
+  
+  .thanks {
+    color: white;
+    font-family: 'Varela Round';
+    font-size: 30px;
+  }
+
+/* Default styles */
+/* ... (previous CSS remains unchanged) ... */
+
+/* Styles for smaller screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .container {
+      flex-direction: column; /* Arrange items in a column */
+      align-items: center;
+  }
+
+  .logo {
+    padding-right: 170px;
+  }
+  .name {
+      padding-top: 30px;
+      margin-bottom: 5px;
+      font-size: 40px;
+      padding-left: 310px;
+      text-align: center;
+  }
+
+  .form {
+      padding-right: 0;
+  }
+.str {
+  padding-left: 210px;
+}
+  .start-button {
+      padding-left: 0;
+  }
+}
